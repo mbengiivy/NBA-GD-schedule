@@ -9,4 +9,4 @@ Serpapi Library: Install Serpapi library in local environment "pip install googl
 Docker CLI and Desktop Installed: To build & push container images
 
 ## Archicture:
-![Architecture](gd_schedule\containerized-sports-api\images\Screenshot 2025-01-30 213926.png)
+![Architecture](\images\Screenshot 2025-01-30 213926.png)
