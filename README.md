@@ -22,9 +22,9 @@ aws ecr create-repository --repository-name sports-api --region us-east-1
 4. Authenticate,build and push the docker image:
 aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin <AWS_ACCOUNT_ID>.dkr.ecr.us-east-1.amazonaws.com
 
-docker build --platform linux/amd64 -t sports-api .
-docker tag sports-api:latest <AWS_ACCOUNT_ID>.dkr.ecr.us-east-1.amazonaws.com/sports-api:sports-api-latest
-docker push <AWS_ACCOUNT_ID>.dkr.ecr.us-east-1.amazonaws.com/sports-api:sports-api-latest
+- docker build --platform linux/amd64 -t sports-api .
+- docker tag sports-api:latest <AWS_ACCOUNT_ID>.dkr.ecr.us-east-1.amazonaws.com/sports-api:sports-api-latest
+- docker push <AWS_ACCOUNT_ID>.dkr.ecr.us-east-1.amazonaws.com/sports-api:sports-api-latest
 5. Create an ECS cluster and task definition:
 (Create manually through the console)
 6. Create an API Gateway REST API:
