@@ -8,3 +8,5 @@ AWS CLI Installed and Configured: Install & configure AWS CLI to programatically
 Serpapi Library: Install Serpapi library in local environment "pip install google-search-results"
 Docker CLI and Desktop Installed: To build & push container images
 
+## Archicture:
+![Architecture](gd_schedule\containerized-sports-api\images\Screenshot 2025-01-30 213926.png)
